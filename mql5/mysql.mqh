@@ -15,9 +15,10 @@ string pMysql(string process,string sql);
 
 string read() {
 
-  string deger= pMysql("read","");
-  Print(deger);
-  return deger;
+  string val= pMysql("read","");
+  //string inst = pMysql("insert","INSERT INTO Currency (Currncy)VALUES ('EURUSD');
+  Print(val);
+  return val;
 }
 
 //+------------------------------------------------------------------+
