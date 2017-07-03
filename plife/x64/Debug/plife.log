@@ -1,0 +1,32 @@
+﻿Build started 28.03.2016 02:59:42.
+     1>Project "C:\Users\sevim\Documents\Visual Studio 2010\Projects\plife\plife\plife.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\plife.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\sevim\Desktop\Jobb\software\project life\Mysql DLL\mysql-connector-c-6.1.6-winx64\include" /Zi /nologo /W3 /WX- /Od /D "WIN32" /D _DEBUG /D "_WINDOWS" /D _USRDLL /D "PLIFE_EXPORTS" /D "_WINDLL" /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(108): warning C4101: 'row' : unreferenced local variable
+     1>main.cpp(122): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(498) : see declaration of 'mbstowcs'
+     1>c:\users\sevim\documents\visual studio 2010\projects\plife\plife\main.cpp(145): warning C4715: 'pMysql' : not all control paths return a value
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:".\x64\Debug\plife.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\sevim\Desktop\Jobb\software\project life\Mysql DLL\mysql-connector-c-6.1.6-winx64\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\plife.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\sevim\Documents\Visual Studio 2010\Projects\plife\plife\x64\Debug\plife.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\x64\Debug\plife.lib" /MACHINE:X64 /DLL x64\Debug\plife.dll.embed.manifest.res
+         x64\Debug\main.obj
+         plife.vcxproj -> C:\Users\sevim\Documents\Visual Studio 2010\Projects\plife\plife\.\x64\Debug\plife.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\plife.dll.embed.manifest" /manifest x64\Debug\plife.dll.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         plife.vcxproj -> C:\Users\sevim\Documents\Visual Studio 2010\Projects\plife\plife\.\x64\Debug\plife.dll
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\plife.unsuccessfulbuild".
+         Touching "x64\Debug\plife.lastbuildstate".
+     1>Done Building Project "C:\Users\sevim\Documents\Visual Studio 2010\Projects\plife\plife\plife.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.43
